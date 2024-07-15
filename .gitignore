@@ -1,0 +1,11 @@
+ba_utils/.git
+
+*.pkl
+*.parquet
+*.png
+*.jpg
+*.pdf
+
+.ipynb_checkpoints
+__pycache__/
+
