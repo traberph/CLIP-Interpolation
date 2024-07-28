@@ -16,3 +16,17 @@ related to dataset quality and the initial embeddings were identified, highlight
 areas for future research. The findings contribute to the broader understanding
 of interpolation methods in multimodal AI, offering insights into sampling from
 text-to-image generation models
+
+
+### Structure
+
+00 interpolates CLIP embeddings with linear interpolation (lerp) and spherical linear interpolation (slerp) and generates images from the interpolated embeddings
+01 evaluates the generated images from 00
+02 uses manual selected prompts to improve the interpolation quality
+03 evaluates the generated images from 02
+04 for experiments with the EOT Token of CLIP
+05 selects the reference points for the interpolation automatically
+06 evaluates the generated images from 05
+
+### Some Results
+
